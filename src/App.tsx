@@ -1,4 +1,5 @@
-import flaskLogo from './assets/flask.png'
+import logo from './assets/pw_logo.png'
+//import logo from './assets/flask.png'
 import './App.css'
 
 function App() {
@@ -6,11 +7,12 @@ function App() {
     <>
       <div>
         <a href="mailto:zach@petchworks.ca" target="_blank">
-          <img src={flaskLogo} className="logo" alt="Petch Works Logo" />
+          <img src={logo} className="logo" alt="Petch Works Logo" />
         </a>
       </div>
-      <h1>Petch Works</h1>
-      <a href="mailto:zach@petchworks.ca" className="button">
+      <h1>Zach Petch</h1>
+      <h2 className="company-title">PETCH WORKS</h2>
+      <a href="mailto:zach@petchworks.ca" className="button contact-button">
         Get In Touch
       </a>
       <div className="card">
@@ -27,7 +29,7 @@ function App() {
         <ul>
           <li>Technical Architecture Planning: Choosing the right stack, designing scalable systems, and documenting a clean roadmap.</li>
           <li>MVP Execution Strategy: A 2-week process to define your MVP scope, estimate build time, and prepare hiring plans.</li>
-          <li>Team Formation: I help source and vet developers, designers, and devops talent through my trusted network.</li>
+          <li>Team Formation: I can help your time find and vet developers, designers, and devops talent through my trusted network.</li>
           <li>Hands-on Execution: Build early prototypes, coordinate delivery, or design and delivery of full fledged web and/or mobile apps.</li>
         </ul>
         <h3>Why Work With Me?</h3>
@@ -47,7 +49,7 @@ function App() {
           I am a strong communicator and collaborator, and I believe in building long-term relationships with my clients. I take the time to understand your business and your goals, and I work closely with you to ensure that we are aligned on the vision for your project.
         </p>
         <p>
-          I am flexible and adaptable, and I can work with you to find the right solution for your needs. Whether you need a full-time CTO, a part-time consultant, or just someone to help you get started, I can help.
+          I am flexible and adaptable, and I can work with you to find the right solution for your needs. Whether you need a fractional (or full time) tech leadership, a part-time consultant, or just someone to help you get started, I can help.
         </p>
       </div>
       <footer>
