@@ -52,7 +52,7 @@ function App() {
       </div>
       <footer>
         <a
-          href="https://www.linkedin.com/in/your-profile"
+          href="https://www.linkedin.com/in/zach-petch"
           target="_blank"
           rel="noopener noreferrer"
           className="linkedin-link"
